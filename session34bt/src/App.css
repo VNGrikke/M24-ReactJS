@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  margin: 3vh 0;
+  gap: 120vh;
+}
+
+body .sortAndSearch{
+  text-align: right;
+  margin-right: 7.4vh;
+}
+body .sortAndSearch input{
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 10px;
+  margin-left: 2vh;
+}
+body .sortAndSearch select{
+  width: 150px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 10px;
+}
+body .studentList{
+  margin: 3vh 0;
+}
+body .studentList table{
+  width: 90%;
+  margin: auto;
+  font-size: large;
+}
+body .studentList thead tr td {
+  text-align: left;
+  color: #ccc;
+  padding: 20px 0;
+}
+body .studentList tbody tr td:first-child{
+  width: 80px;
+}
+body .studentList tbody tr td:nth-child(2){
+  width: 150px;
+}
+body .studentList tbody tr td:last-child{
+  display: flex;
+  gap: 10px;
+  
+}
+body .studentList tbody tr td:last-child button{
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+

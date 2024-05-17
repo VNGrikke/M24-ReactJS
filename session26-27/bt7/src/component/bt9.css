@@ -1,0 +1,48 @@
+button{
+    padding: 4px 6px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 0 3px;
+}
+table{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-spacing: 0;
+    border: 1px solid rgb(172, 172, 172);
+}
+thead tr{
+    background-color: rgb(172, 172, 172);
+    height: 5vh;
+}
+tr{
+    
+    height: 5vh;
+}
+
+table thead tr th:first-child{
+    width: 5vh;
+}
+table thead tr th:nth-child(2){
+    width: 20vh;
+}
+table thead tr th:nth-child(3){
+    width: 10vh;
+}
+table thead tr th:nth-child(4){
+    width: 20vh;
+}
+table thead tr th:nth-child(5){
+    width: 10vh;
+}
+table thead tr th:last-child{
+    width: 15vh;
+}
+
+table tbody tr td{
+    text-align: center;
+}
+
+tfoot{
+    height: 3vh;
+    background-color: rgb(172, 172, 172);
+}

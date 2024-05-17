@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+a{
+  color: black;
+  padding: 4px 8px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 4px;
+
+}
+
+.active:visited{
+  background-color: gray;
+  color: white;
+}

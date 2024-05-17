@@ -1,0 +1,21 @@
+.divCon{
+    height: 200px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+.divCon:first-child{
+    background-color: red;
+}
+.divCon:nth-child(2){
+    background-color: blue;
+}
+.divCon:last-child{
+    background-color: green;
+}
+.divBo{
+    display: flex;
+    gap: 20px;
+}
+

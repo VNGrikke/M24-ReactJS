@@ -1,0 +1,52 @@
+.inputData{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.headerInput{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+.headerInput h2{
+    font-size: 20px;
+}
+
+.headerInput button{
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: white;
+}
+.inputData input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.inputData div{
+    margin-top: 20px;
+}
+label{
+    margin-left: 5px;
+}
+.inputData .footer button{
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: rgb(121, 255, 246);
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    color: white;
+}

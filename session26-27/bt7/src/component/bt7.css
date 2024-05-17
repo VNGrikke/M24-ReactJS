@@ -1,0 +1,41 @@
+.header{
+    width: 100%;
+    background-color: gray;
+    height: 5vh;
+    text-align: center;
+    line-height: 5vh;
+}
+.body{
+    display: flex;
+}
+.left{
+    width: 25%;
+    height: 95vh;
+    background-color: blue;
+    text-align: center;
+    line-height: 95vh;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 75%;
+    height: 95vh;
+    background-color: antiquewhite;
+}
+.main{
+    height: 85vh;
+    line-height: 85vh;
+    width: 95%;
+
+    background-color: aqua;
+}
+.footer{
+    background-color: brown;
+    width: 95%;
+    height: 5vh;
+    line-height: 5vh;
+}
+
